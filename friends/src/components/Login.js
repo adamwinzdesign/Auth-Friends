@@ -29,7 +29,8 @@ class Login extends React.Component {
       .post('/login', this.state.credentials)
       .then(res => {
         localStorage.setItem('token', res.data.payload);
-        this.props.history.push('/protected')
+        this.props.history.push('/protected');
+        console.log('this.state.credentials in Login.js:', this.state.credentials)
       })
       .catch(err => console.log(err))
   }
@@ -37,7 +38,7 @@ class Login extends React.Component {
   render() {
     return (
       <div>
-        <form onSubmit={this.login}>
+        <form onSubmit={this.login} className='form-contain'>
           <input
             type='text'
             name='username'

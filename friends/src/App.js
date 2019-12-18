@@ -16,7 +16,7 @@ function App() {
             <Link to='/login' className='nav-link'>Log In</Link>
           </li>
           <li>
-            <Link to='/protected'>Protected Page</Link>
+            <Link to='/protected' className='nav-link'>Protected Page</Link>
           </li>
           {/* <li>
             <Link to='/friendslist' className='nav-link'>Friends List</Link>
