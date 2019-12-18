@@ -22,7 +22,7 @@ const FriendAdd = () => {
 
   const handleChanges = event => {
     setFriend({...friend, [event.target.name]: event.target.value});
-    // console.log('friend in FriendAdd:', friend)
+    console.log('friend in FriendAdd:', friend)
   }
 
   return(
