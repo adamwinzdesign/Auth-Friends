@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.nav-list {
+/* .nav-list {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -40,4 +40,4 @@
 .form-contain button {
   background: black;
   color: white;
-}
+} */
